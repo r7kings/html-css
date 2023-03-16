@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupping Tags</title>
+    <style>
+        body {
+            background-color: rgb(167, 167, 167);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+
+        }
+
+        header {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: rgb(89, 151, 89);
+            padding: 4px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
+            border-radius: 5px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            margin-right: 25px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.473);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        article {
+            background-color: lightgreen;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        article > aside {
+            background-color: rgb(89, 151, 89);
+            padding: 1px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: darkslategray;
+            color: white;
+            margin: 0px;
+            text-align: center;
+            padding: 4px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Tecnoligia e Clube de Regatas Flamengo</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore unde quisquam eligendi? Voluptatibus ullam eligendi necessitatibus consectetur vero deserunt similique sed iure. Voluptatem numquam vel saepe tempore doloremque officiis magnam!</p>
+                <aside>
+                    <p>Fonte: Rene Caragrande</p>
+                </aside>
+                <h2>Noticias do Vasco</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ad fugit molestiae ipsa dolorum possimus? Odit perferendis ut facere, autem eaque beatae facilis quisquam praesentium neque, doloremque molestiae reprehenderit minima.Caiu!!</p>
+                <aside>
+                    <p>Fonte: Arial</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Reis</p>
+    </footer>
+</body>
+</html>
