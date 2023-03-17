@@ -62,7 +62,7 @@ section#img2 {
 }
 section.image > p{
     display: inline-block;
-    padding: 5px;
+    padding: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
     background-color: rgba(0, 0, 0, 0.247);
 }
