@@ -13,25 +13,23 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 header {
-    height: 220px;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px;
 }
 header h1 {
     font-family: var(--fonte2);
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 5px;
     font-weight: bolder;
-    font-size: 8em;
+    font-size: 10vw;
 }
 header p {
     font-family: var(--fonte1);
-    padding-top: 5px;
     padding-bottom: 50px;
 }
 header a {
@@ -39,7 +37,7 @@ header a {
     font-weight: bold;
     text-decoration: none;
 }
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
     color: rgb(255, 255, 173);
 }
@@ -47,16 +45,14 @@ section {
     font-family: var(--fonte3);
     background-color: white;
     padding: 60px 30px;
-}
-article {
-    max-width: 550px;
-    padding: 10px;
-    font-size: 2.5em;
+    font-size: 3.5vw;
     font-weight: bold;
     line-height: 2em;
 }
 section.image {
+    background-size: cover;
     background-attachment: fixed;
+    color: white;
 }
 section#img1 {
     background-image: url(../imagens/background001.jpg);
@@ -65,15 +61,17 @@ section#img1 {
 section#img2 {
     background-image: url(../imagens/background002.jpg);
 }
-section.image > article {
-    background-color: rgba(0, 0, 0, 0.205);
+section.image > p{
+    display: inline-block;
+    padding: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.315);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.247);
 }
 footer {
     font-family: var(--fonte1);
     background-color: black;
     color: white;
+    font-size: 2vw;
     text-align: center;
     padding: 2px;
 }
@@ -81,8 +79,4 @@ footer a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-}
-footer a:hover {
-    text-decoration: underline;
-    color: rgb(253, 253, 160);
 }
