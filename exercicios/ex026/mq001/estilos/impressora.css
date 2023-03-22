@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*Media para impressoras*/
+
+* {
+    margin: 5px;
+    padding: 5px;
+}
+html {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+menu {
+    display: none;
+}
+article::after {
+    content: 'Conteudo impresso em lugar nenhum.com.br';
+}
